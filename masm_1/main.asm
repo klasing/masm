@@ -10,6 +10,9 @@ ExitProcess PROTO, dwExitCode: DWORD
 
 main PROC
 	; write your assembly code here
+	mov		eax, 3
+	mov		ebx, 8
+	add		eax, ebx
 
 	INVOKE ExitProcess, 0
 main ENDP
